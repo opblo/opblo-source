@@ -37,7 +37,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           # personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          personal_token: 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
+          personal_token: ${{ secrets.github-pages }}
           external_repository: opblo/opblo.github.io
           publish_branch: main  # default: gh-pages
           publish_dir: ./public
